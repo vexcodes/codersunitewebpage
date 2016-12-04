@@ -1,5 +1,6 @@
 * {
 	font-family: 'Inconsolata', monospace;
+	color: white;
 }
 
 body {
@@ -14,15 +15,17 @@ body {
 	z-index: -10;
 	object-fit: cover;
 	display: block;
+	position: fixed;
 }
 
 #header {
 	z-index: 0;
-	background: rgba(255,255,255,0.8);
+	background: rgba(0,0,255,0.9);
 	height: 15vh;
 	width: 100%;
 	position: fixed;
 	min-height: 100px;
+	color: white;
 }
 
 #header-wrapper {
@@ -51,6 +54,18 @@ body {
 }
 
 #header-links li a {
-	color: black;
+	color: white;
 	text-decoration: none;
+}
+
+#wrapper {
+	z-index: 10;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#text {
+	margin-top: 20vh;
+	position: absolute;
+	background-color: white;
 }
