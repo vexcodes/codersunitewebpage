@@ -68,4 +68,5 @@ body {
 	margin-top: 20vh;
 	position: absolute;
 	background-color: rgba(30,43,157,1);
+	display: block;
 }
