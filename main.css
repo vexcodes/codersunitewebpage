@@ -46,8 +46,11 @@ body {
 }
 
 #header-links li {
-	color: black;
 	display: inline-block;
-	text-decoration: none;
 	margin-left: 20px;
+}
+
+#header-links li a {
+	color: black;
+	text-decoration: none;
 }
