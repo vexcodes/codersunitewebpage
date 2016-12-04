@@ -20,12 +20,12 @@ body {
 
 #header {
 	z-index: 0;
-	background: rgba(0,0,255,0.9);
+	background: rgba(0,0,0,0.7);
 	height: 15vh;
 	width: 100%;
 	position: fixed;
 	min-height: 100px;
-	color: white;
+	color: black;
 }
 
 #header-wrapper {
