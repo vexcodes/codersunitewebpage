@@ -20,7 +20,7 @@ body {
 
 #header {
 	z-index: 0;
-	background: rgba(0,0,0,0.7);
+	background: rgba(61,61,61,1);
 	height: 15vh;
 	width: 100%;
 	position: fixed;
