@@ -65,20 +65,17 @@ body {
 }
 
 #wrapper {
-	z-index: 0;
-	margin: auto;
-	display: block;
-	margin-top: 20vh;
+	position: absolute;
 	width: 75%;
-	margin: 0 auto;
+	left: 12.5%;
+	margin-top: 20vh;
 }
 
 .text {
-	width: 75%;
-	height: 100%;
 	background-color: white;
 	color: black;
-	margin: auto;
+	padding: 20px;
+	border-radius: 50px;
 }
 
 @media screen and (max-width: 750px) {
