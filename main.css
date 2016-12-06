@@ -27,6 +27,7 @@ body {
 	width: 100%;
 	position: fixed;
 	color: black;
+	min-height: 100px;
 }
 
 #header-wrapper {
@@ -38,12 +39,12 @@ body {
 #header-text {
 	display: inline-block;
 	float: left;
-	font-size: 3em;
+	font-size: 6vw;
 	line-height: 15vh;
 }
 
 #header-links {
-	float: right;
+	float: left;
 	position: absolute;
     top: 0;
     bottom: 0;
@@ -66,9 +67,10 @@ body {
 #wrapper {
 	z-index: 0;
 	margin: auto;
-	position: absolute;
 	display: block;
 	margin-top: 20vh;
+	width: 75%;
+	margin: 0 auto;
 }
 
 .text {
