@@ -17,7 +17,7 @@ Sometime soon, as long as it flies along at this pace. We really don't have a fo
 GNU GPL v3. Check out the license info in the repo (creatively titled "LICENSE").
 
 
-(c) 2016 jack-the-coder. 
+(c) 2016 eado & jack-the-coder. 
 
 
 
