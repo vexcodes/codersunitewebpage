@@ -1,6 +1,7 @@
 * {
 	font-family: 'Inconsolata', monospace;
 	color: white;
+	box-sizing: border-box;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
 }
 
 #header-wrapper {
-	width: 75%;
+	width: 90%;
 	margin: 0 auto;
 	height: 100%;
 }
@@ -46,8 +47,7 @@ body {
 	position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
-    width: 50%;
+    right: 10%;
     height: 30%;
     margin: auto;
 }
@@ -65,7 +65,6 @@ body {
 
 #wrapper {
 	z-index: 0;
-	width: 75%;
 	margin: auto;
 	position: absolute;
 	display: block;
@@ -77,5 +76,11 @@ body {
 	height: 100%;
 	background-color: white;
 	color: black;
-	margin: 0 auto;
+	margin: auto;
+}
+
+@media screen and (max-width: 750px) {
+    #header-links li {
+    	display: block;
+    }
 }
