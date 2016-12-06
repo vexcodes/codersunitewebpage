@@ -16,37 +16,40 @@ body {
 	object-fit: cover;
 	display: block;
 	position: fixed;
+	opacity: 0.7;
 }
 
 #header {
 	z-index: 0;
-	background: rgba(61,61,61,1);
+	background: rgba(41, 128, 185,1.0);
 	height: 15vh;
 	width: 100%;
 	position: fixed;
-	min-height: 100px;
 	color: black;
 }
 
 #header-wrapper {
 	width: 75%;
 	margin: 0 auto;
-	align-items: center;
-	padding-top: 3%;
-	display: flex;
+	height: 100%;
 }
 
 #header-text {
 	display: inline-block;
 	float: left;
 	font-size: 3em;
-	padding-bottom: 5vh;
+	line-height: 15vh;
 }
 
 #header-links {
-	float: left;
-	display: inline-block;
-	margin-left: 20px;
+	float: right;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    margin: auto;
 }
 
 #header-links li {
@@ -61,14 +64,18 @@ body {
 }
 
 #wrapper {
-	z-index: 10;
+	z-index: 0;
 	width: 75%;
-	margin: 0 auto;
+	margin: auto;
+	position: absolute;
+	display: block;
+	margin-top: 20vh;
 }
 
-#text {
-	margin-top: 20vh;
-	position: absolute;
-	background-color: rgba(30,43,157,1);
-	display: block;
+.text {
+	width: 75%;
+	height: 100%;
+	background-color: white;
+	color: black;
+	margin: 0 auto;
 }
