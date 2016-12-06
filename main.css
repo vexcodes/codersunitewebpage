@@ -21,7 +21,7 @@ body {
 }
 
 #header {
-	z-index: 0;
+	z-index: 5;
 	background: rgba(41, 128, 185,1.0);
 	height: 15vh;
 	width: 100%;
@@ -68,7 +68,7 @@ body {
 	position: absolute;
 	width: 75%;
 	left: 12.5%;
-	margin-top: 20vh;
+	margin-top: 15vh;
 }
 
 .text {
