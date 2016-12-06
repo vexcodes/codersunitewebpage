@@ -18,6 +18,7 @@ GNU GPL v3. Check out the license info in the repo (creatively titled "LICENSE")
 
 
 (c) 2016 eado & jack-the-coder. 
+website hosted on 000webhost, domain aquired by vexcodes.
 
 
 
