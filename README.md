@@ -1,5 +1,5 @@
 # codersunitewebpage
-A website for Coder's Unite at Minnetonka Middle School East
+A website for Coders Unite at Minnetonka Middle School East
 
 ## What does it do?
 Our goals for the project are that it advertises the Coder's club, that it displays profiles on the members who wish to share their information, and that it acts as a group portfolio for our work. 
